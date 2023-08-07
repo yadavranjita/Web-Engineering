@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+}
+    
+.logo{
+    color: white;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 10%;
+    height: 85%;
+    padding: 10px;
+}
+
+.logo1 img{
+    width: 100%;
+    height: 70%;
+    padding: 6px;
+}
+
+.logo2 img{
+    width: 50%;
+    height: 80%;
+    padding: 6px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list-logo{
+    width: 50%; 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    display: flex;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    background-color: black;
+    width: 50%;
+    text-align: right;
+}
+
+#resume{
+   padding: 5px; 
+   font-size: 17px;
+   border: none;
+   color: white;
+   background-color: deeppink;
+}
+
+.firstSection{
+    background-color: black;
+}
+
+.box-main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 2000px;height: 500px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.bottomrightlogo{
+    position: absolute;
+    right: 0px; bottom: 0px;
+    width: 116px;
+    height: 85px;
+    padding: 155px;
+}
+
+.text-one{
+    font-size: 15px;
+  
+}
+
+.text-two{
+    font-size: 35px;
+    color: aqua;
+
+}
+
+.text-three{
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-four{
+    font-size: 15px;
+}
+
+.text-five{
+    font-size: 15px;
+}
+
+.text-five a{
+    color: deeppink;
+}
+.secRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    flex-direction: row-reverse;
+    width: 2000px;height: 500px;
+    color: white;
+    background-color: blue;
+}
+
+.paras{
+   padding: 0px 65px; 
+}
+
+.thumbnail{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.thumbnail img{
+   width: 348%; height: 50%;
+}
+
+.textproject{
+   font-size: 16px;
+}
+
+.projects{
+    width: 50%; 
+}
+
+.projects li{
+    list-style: none;
+}
+
+.sectionTwo{
+    color: skyblue;
+    font-size: 20px;
+}
+
+.sectionThree {
+    text-align: right;
+    border-width:3px;
+    border-style:solid;
+    border-color: black;
+    background-color: black;
+}
+.sectionThree a{
+    color: deeppink;
+}
+.contact{
+    color: white;
+    background-color: purple;
+    height: 40vh;
+    text-align: center;
+}
+.emailme{
+    color: white;
+    background-color: deeppink;
+    width: 8%; 
+    height: 12%;
+    padding: 5px;
+}
+.contactfooter{
+    color: white;
+    background-color: black;
+    height: 34vh;
+    width: 100%;
+    text-align: center;
+}
+
+.contactfooter img{
+    width: 3%;
+    height: 20%;
+    padding: 6px;
+}
+
+
+
